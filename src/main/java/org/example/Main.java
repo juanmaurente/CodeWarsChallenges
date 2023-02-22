@@ -1,5 +1,6 @@
 package org.example;
 
+import Kyus4.TheObservedPin;
 import Kyus5.HumanReadableTime;
 import Kyus5.ValidParentheses;
 
@@ -13,6 +14,9 @@ public class Main {
         ValidParentheses test = new ValidParentheses();
         System.out.println(test.validParentheses("(ab)"));
         */
+
+        TheObservedPin test = new TheObservedPin();
+        System.out.println(test.getPINs("1357"));
     }
 
 }
